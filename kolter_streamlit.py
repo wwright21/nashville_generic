@@ -25,13 +25,13 @@ st.set_page_config(
 
 # set Kolter logo
 col1, col2, col3 = st.sidebar.columns([0.85, 1, 1])
-col2.image('Data/kolter2.png', width=100)
+# col2.image('Data/kolter2.png', width=100)
 
-# sidebar separator
-st.sidebar.markdown(
-    "<p style='text-align:center;color:#000000;'>---------------</p>",
-    unsafe_allow_html=True
-)
+# # sidebar separator
+# st.sidebar.markdown(
+#     "<p style='text-align:center;color:#000000;'>---------------</p>",
+#     unsafe_allow_html=True
+# )
 
 # county select helper text
 st.sidebar.markdown(
